@@ -1,0 +1,51 @@
+ 
+ body {
+    background-color: #A4A8A3;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    
+
+}
+ .container-fluid h1{
+    font-size: 50px;
+    text-align: center;
+    color: #169279;
+    background-color: white;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+.container-fluid img{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 0;
+}
+.container-fluid #usuario{
+    position: absolute;
+    right: 12px;
+}
+footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.producto{
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+.list-group{
+    width: 150px;
+    font-size: 20px;
+}
+
+.imagenesH{
+    width: 100px;
+    height: auto;
+}
