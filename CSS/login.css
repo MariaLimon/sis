@@ -1,0 +1,51 @@
+body{
+    background-image: url(../img/Biblioteca.png);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 1000px;
+}
+
+#login{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255,.85);
+    margin-top: 50px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 20px;
+    
+}
+header div{
+    font-size: larger;
+}
+.borderno{
+    padding-top:1.5em;
+    text-align: center;
+}
+/*botones*/
+.btnverde{
+    background-color: #009059!important;
+}
+.btncrearcta{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+}
+/*nombre de usuario y contraseña*/
+.inputclass{
+    padding: 6px 0;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+
+}

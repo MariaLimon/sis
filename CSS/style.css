@@ -1,0 +1,328 @@
+/*
+input + span {
+    padding-right: 30px;
+  }
+  
+  input:invalid + span::after {
+    position: absolute;
+    content: "✖";
+    padding-left: 5px;
+    color: #8b0000;
+  }
+  
+  input:valid + span::after {
+    position: absolute;
+    content: "✓";
+    padding-left: 5px;
+    color: #009000;
+  }
+/*
+
+  #principal{
+    max-width: 100em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+/*
+body{
+  background-image: url(../img/Biblioteca.png);
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 1000px;
+}
+*/
+/*
+general
+  
+*/
+
+
+  header fieldset{
+    height: 30px;
+  }
+
+/*
+login
+  #login{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255,.85);
+    margin-top: 50px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 20px;
+    
+}
+*/
+  /*
+  general
+  .borderno{
+    border: none;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    
+  }
+  /*
+  login
+  .btnverde{
+    background-color: #009059!important;
+  }
+  .btncrearcta{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: #fff;
+  }
+  */
+  /*
+  login
+  .inputclass{
+    padding: 6px 0;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+
+  }
+  */
+/*
+registro
+ .divprincipal{
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      background: rgba(255,255,255,.85);
+      margin-top: 50px;
+      font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+      font-size: 20px;
+      min-height: 200px;
+  }
+ 
+  .inputclassmd{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 10px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 150px;
+    margin-bottom: 15px;
+
+  }
+
+  .selectclassch{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 40px;
+    font-size: 17px;
+    width: 184px;
+    margin-bottom: 15px;
+  }
+
+  .inputclassch{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 30px;
+    font-size: 17px;
+
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .btnagregar {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 16px;
+   
+    color: #fff;
+
+}
+.dvright{
+  float:right
+}
+*/
+/*
+.textomd{
+  font-size: 15px;
+  margin-bottom: 5px;
+
+}
+.textch{
+  font-size: 12px;
+  color: #777777;
+  margin-top: 5px
+}
+/*
+seleccionar perfil
+#selperfil{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+/*
+.menu li{
+   display: inline-block;
+    position: relative;
+    
+}
+.headermenu{
+  height: 75px;
+  
+}
+.menu li > a {
+  display: block;
+  position: relative;
+  padding: 6px 12px;
+  color:#dddfe2;
+  font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+*/
+@media (max-width: 480px) {
+  /* Estilos para pantallas con un ancho máximo de 480 píxeles */
+  article{
+      height: 55em;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Estilos para pantallas con un ancho mínimo de 481 píxeles y un ancho máximo de 1024 píxeles */
+  article{
+      height: 47em;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Estilos para pantallas con un ancho mínimo de 1025 píxeles y un ancho máximo de 1200 píxeles */
+  article{
+      height: 45em;
+  }
+}
+@media (min-width: 1201px) {
+  /* Estilos para pantallas con un ancho mínimo de 1201 píxeles */
+
+}
+
+
+/*
+@media (min-width: 1200px) {
+  /* Estilos para pantallas con un ancho mínimo de 1200px */
+  /*#login {
+    max-width: 600px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  /* Estilos para pantallas con un ancho máximo de 767px */
+  /*#login {
+    max-width: 350px;
+
+  }
+  .inputclass {
+    width: 270px;
+  }
+  
+  
+}
+*/
+
+.docind{
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      background: rgba(255,255,255,.85);
+      margin-top: 50px;
+      font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+      font-size: 20px;
+      min-height: 200px;
+  }
+  #contenido{
+    /*border: 2px solid blue;*/
+    width: 100%;
+    height: 50%;
+    text-align: justify;
+}
+#articInd img{
+  /*border: 2px solid black;*/
+  width: 10em;
+  height: 15em;
+  margin: 0.5em;
+  display: inline-block;
+}
+
+
+
+#descarga:hover {
+  background-color: #04937b;
+  color: #c9e5e3;
+}
+#descarga{
+  background-color: white;
+  height: 2em;
+  width: 10em;
+}
+
+article{
+  /*border: 2px solid yellow;*/
+  margin: 1em;
+  height: auto;
+  padding: 1em;
+  
+}
+
+@media (max-width: 480px) {
+  /* Estilos para pantallas con un ancho máximo de 480 píxeles */
+  article{
+    /*  height: 55em;*/
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Estilos para pantallas con un ancho mínimo de 481 píxeles y un ancho máximo de 1024 píxeles */
+  article{
+      /*height: 47em;*/
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  /* Estilos para pantallas con un ancho mínimo de 1025 píxeles y un ancho máximo de 1200 píxeles */
+  article{
+     /* height: 45em;*/
+  }
+}
+
+.articulos{
+  margin: 2.5em;
+  height: 12em;
+  padding: 1em;
+  background-color:#c9e5e3;
+  font-size: medium;
+}
+
+
+.articulos img{
+  width: 120px;
+    height: 150px;
+    float:left;
+    margin: 0.5em;
+}
+/*
+html {
+  min-height: 100%;
+  position: relative;
+}

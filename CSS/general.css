@@ -1,0 +1,116 @@
+
+body{
+    background-color:white;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100%;
+    padding-bottom: 15%;
+}
+header{
+    background-color: rgba(31, 27, 27, 0.849);
+    color: rgba(255,255,255,.85);
+    height: 5em;
+}
+html {
+    min-height: 100%;
+    position: relative;
+}
+.borderno{
+    border: none;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+#datosEscuela{
+    display: inline;
+}
+  
+#redes{
+    display: flex;
+    justify-content: center;
+}
+#feisbuk, #pagina, #twitter, #insta {
+    padding: 0.5em;
+}
+.divprincipal{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgb(233, 233, 233);
+    margin-top: 50px;
+    font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+    font-size: 20px;
+    min-height: 200px;
+}
+
+/*menu*/
+.menu li{
+    display: inline-block;
+    position: relative;
+     
+}
+.headermenu{
+   height: 75px;
+   
+}
+.menu li > a {
+   display: block;
+   position: relative;
+   padding: 6px 12px;
+   color:#dddfe2;
+   font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
+}
+
+/*seleccionarPerfil y perfil*/
+.btnagregar {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 16px;
+    color: #fff;
+
+}
+
+/*perfil y registro*/
+.inputclassch{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 30px;
+    font-size: 17px;
+
+    width: 300px;
+    margin-bottom: 10px;
+}
+.inputclassmd{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 10px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 150px;
+    margin-bottom: 15px;
+
+}
+
+.selectclassch{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 40px;
+    font-size: 17px;
+    width: 184px;
+    margin-bottom: 15px;
+}
